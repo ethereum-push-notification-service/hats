@@ -15,6 +15,7 @@ import { Modal } from "components";
 import AirdropPrompt from "pages/AirdropMachinePage/AirdropPrompt/AirdropPrompt";
 import EmbassyNotificationBar from "components/EmbassyNotificationBar/EmbassyNotificationBar";
 import { AppLayout, AppContent, ContentWrapper, StyledApp } from "./styles";
+import { PushChat } from "components/PushChat/PushChat";
 
 const BasicLayout = (): JSX.Element => {
   const dispatch = useDispatch();
@@ -56,6 +57,7 @@ const BasicLayout = (): JSX.Element => {
           <AppContent>
             <Outlet />
           </AppContent>
+          <PushChat/>
         </ContentWrapper>
       </AppLayout>
     </StyledApp>
