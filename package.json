@@ -11,6 +11,9 @@
     "@ethersproject/units": "^5.6.0",
     "@hookform/devtools": "^4.2.3",
     "@hookform/resolvers": "^2.9.10",
+    "@pushprotocol/restapi": "0.2.1",
+    "@pushprotocol/socket": "^0.4.0",
+    "@pushprotocol/uiweb": "0.4.3",
     "@testing-library/dom": "^8.13.0",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.2.0",
@@ -31,6 +34,8 @@
     "browser-passworder": "^2.0.3",
     "buffer": "^6.0.3",
     "classnames": "^2.3.1",
+    "dotenv": "^16.0.3",
+    "dotenv-webpack": "^8.0.1",
     "downloadjs": "^1.4.7",
     "ethers": "^5.7.2",
     "fs": "^0.0.1-security",
@@ -99,11 +104,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "dependencies": {
-    "@pushprotocol/restapi": "0.2.1",
-    "@pushprotocol/uiweb": "0.2.3",
-    "dotenv": "^16.0.3",
-    "dotenv-webpack": "^8.0.1"
   }
 }

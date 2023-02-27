@@ -57,7 +57,7 @@ const BasicLayout = (): JSX.Element => {
           <AppContent>
             <Outlet />
           </AppContent>
-          <PushChat/>
+          <PushChat />
         </ContentWrapper>
       </AppLayout>
     </StyledApp>
